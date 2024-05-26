@@ -4,20 +4,19 @@ getgenv().Configs = {
     ["Auto Buso"] = true,
     ["Auto turn on race v3"] = true,
     ["Auto turn on race v4"] = true,
-    ["FPS Boost"] = true,
+    ["FPS Boost"] = false,
     ["Click Time"] = 0.2,
     ["Bypass TP"] = true,
-    ["Time to kill"] = 190, -- seconds - max time to kill the target
     ["Chat"] = {
-        ["Enable"] = true,
-        ["Message"] = {"bet boi on top , xero hub on top free auto bounty"}, -- Input your message here
+        ["Enable"] = false,
+        ["Message"] = {"get good losers", "no skill?", "dont cry xd", "u cant win lol", "try to hunt me", "get a good gaming chair losers", "feeling no skill?"}, -- Input your message here
     },
     ["Run When Low Health"] = {
         ["Enable"] = true,
         ["Health"] = 3500,
         ["Come back"] = false
     },
-    ["Region"] = "Singapore", -- Singapore, United States, Germany, ...
+    ["Region"] = "Singapore", -- Singapore, United States, Germany, France, India, ??? ...
     ["Weapons"] = {
         ["Melee"] = {
             ["Enable"] = true,
@@ -65,7 +64,7 @@ getgenv().Configs = {
             }
         },
         ["Sword"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 1,
             ["Skills"] = {
                 ["Z"] = {
@@ -79,7 +78,7 @@ getgenv().Configs = {
             }
         },
         ["Gun"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Delay"] = 0.5,
             ["Skills"] = {
                 ["Z"] = {
@@ -94,13 +93,18 @@ getgenv().Configs = {
         }
     },
     ["Theme"] = {
-        ["Enable"] = true,
+        ["Enable"] = false,
         ["Name"] = "Hutao", -- Hutao, Raiden, Ayaka, Yelan
         ["Custom Theme"] = {
             ["Enable"] = false,
             ["Text Color"] = Color3.fromRGB(231, 85, 88),
             ["Character Position"] = UDim2.new(0.563000023, 0, -0.174999997, 0)
         }
+    },
+    ["Webhook"] = {
+        ["Enable"] = true,
+        ["Url"] = "",
+        ["Image"] = ""
     }
 }
-loadstring(game:HttpGet("https://xerohub.click/script/autobounty.lua"))()
+loadstring(game:HttpGet("https://xerohub.click/script/autobounty.lua"))() 
