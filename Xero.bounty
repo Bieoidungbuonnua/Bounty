@@ -1,5 +1,5 @@
 getgenv().Configs = {
-    ["Team"] = "Marines", -- Pirates/Marines
+    ["Team"] = "Pirates", -- Pirates/Marines
     ["Auto Ken"] = true,
     ["Auto Buso"] = true,
     ["Auto turn on race v3"] = true,
